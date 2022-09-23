@@ -6,7 +6,8 @@ const routeUrl = window.location.href
 const url = routeUrl.slice(0,-6)
 var ip = url.split('/')[2].split(':')[0];
 const builtip = 'http://' + ip + ":8080"
-console.log("BUILT URL :", builtip)";
+console.log("BUILT URL :", builtip)                
+ const baseURL = builtip";
 const headers = {
     'Content-Type': 'application/json',
 }
